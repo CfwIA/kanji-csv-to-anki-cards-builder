@@ -16,6 +16,7 @@ For the dictionary file, you will need to manually download the JMdict_e on the 
 For the database file, you will have to create it manually or obtain a databese file from somewhere.
 The format is a CSV file with the following fields :
 
+```
 ID,LEVEL,KANJI,CATEGORY,KUNYOMI,ONYOMI,KUNYOMI_EXAMPLE_IMPORTANT,ONYOMI_EXAMPLE_IMPORTANT,KUNYOMI_EXAMPLE,ONYOMI_EXAMPLE
 
 ID = unique identifier
@@ -28,6 +29,7 @@ KUNYOMI_EXAMPLE_IMPORTANT = the important kunyomi examples
 ONYOMI_EXAMPLE_IMPORTANT = the important onyomi examples
 KUNYOMI_EXAMPLE = the others kunyomi examples
 ONYOMI_EXAMPLE = the others onyomi examples
+```
 
 # License
 
