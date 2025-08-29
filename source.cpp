@@ -329,8 +329,8 @@ std::set<std::string> get_vocab_from_kanji_list(const std::vector<kanji> list) {
 
 int mainpp(const std::vector<std::string> args) {
 	// 1st arg : db file
-	// 2nd file : dictionnary
-	// 3rd file : output file (optional)
+	// 2nd arg : dictionnary file
+	// 3rd arg : output file (optional)
 
 	auto list = read_file(args.at(1));
 	auto dictionnary = read_dictionnary(args.at(2));
